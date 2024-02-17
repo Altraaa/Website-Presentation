@@ -1,7 +1,9 @@
-
+import NavigationBar from "./main/navigation-bar/navigationBar";
 
 export default function Home() {
   return (
-    <div>p</div>
+    <div >
+      <NavigationBar />
+    </div>
   );
 }

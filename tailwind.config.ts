@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation : {
+        geser : 'geser 800ms ease-in-out ',
+        geserbutton : 'geserbutton 800ms ease-in-out',
+      },
+      keyframes : {
+        geser : {
+          '0%' : { transform : 'translateY(-15rem)' },
+          '100%' : { transform : 'translateY(0)'},
+        },
+        geserbutton : {
+          '0%' : { transform : 'translateY(0)' },
+          '100%' : { transform : 'translateY(15)'},
+        },
+      },
     },
   },
   plugins: [],
