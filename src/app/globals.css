@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Sniglet:wght@400;800&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ubah nilai alpha sesuai dengan kebutuhan Anda */
+    backdrop-filter: blur(0px); /* Ubah nilai blur sesuai dengan kebutuhan Anda */
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.navbar.transparent {
+    background-color: rgba(255,255,255,0.1); /* Transparan */
+    backdrop-filter: blur(2px); /* Tanpa blur */
+}
+
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.balsamiq-sans-regular-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.balsamiq-sans-bold {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.balsamiq-sans-bold-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
