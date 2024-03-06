@@ -17,7 +17,7 @@ function Footer() {
       <div className="w-full h-full bg-gray-300  flex justify-center items-center">
         <div className="w-full h-full p-5">
           <div className="md:flex md:justify-between lg:justify-normal lg:gap-5 xl:gap-0 xl:justify-between">
-            <div className="lg:mb-5 lg:w-72">
+            <div className="lg:mb-5 xl-w-full">
               <div>
                 <TaksuLogoMobile />
               </div>
