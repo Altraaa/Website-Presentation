@@ -41,14 +41,21 @@ function Footer() {
                   About Us
                 </a>
                 <a
-                  className="after:content-[''] after:block after:absolute after:h-[2px] after:bg -black after:w-0 after:transition-all after:duration-300 hover:after:w-[83px] hover:text-blue-600 transition-all ease-in-out duration-300"
+                  className="after:content-[''] after:block after:absolute after:h-[2px] after:bg-black after:w-0 after:transition-all after:duration-300 hover:after:w-[83px] hover:text-blue-600 transition-all ease-in-out duration-300"
                   href=""
                 >
                   Our Project
                 </a>
               </div>
               <div className="md:w-80 md:mt-4 md:flex hidden xl:w-[398px] lg:w-72 xl:flex">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia omnis quibusdam, dignissimos quia quae? Quibusdam est praesentium consequatur voluptatem possimus dolorem in quas voluptas harum itaque, et ipsum nam vero repudiandae quae aperiam porro. Id nam ut quia aspernatur, dolor facilis unde. Necessitatibus, nostrum.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  mollitia omnis quibusdam, dignissimos quia quae? Quibusdam est
+                  praesentium consequatur voluptatem possimus dolorem in quas
+                  voluptas harum itaque, et ipsum nam vero repudiandae quae
+                  aperiam porro. Id nam ut quia aspernatur, dolor facilis unde.
+                  Necessitatibus, nostrum.
+                </p>
               </div>
             </div>
             <div className="space-y-4 md:mt-4 md:mb-4 md:justify-between lg:flex md:w-80 lg:w-[685px] xl:w-[900px]">
