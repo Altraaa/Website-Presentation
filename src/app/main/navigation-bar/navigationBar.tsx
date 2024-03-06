@@ -1,9 +1,9 @@
 
 "use client";
 import "../../globals.css"
-import TaksuLogoMobile from "./images/Taksu-Logo-mobile";
-import TaksuLogoTablet from "./images/Taksu-Logo-tablet";
-import TaksuLogoDesktop from "./images/Taksu-Logo-desktop";
+import TaksuLogoMobile from "../../../image/Taksu-Logo-mobile";
+import TaksuLogoTablet from "../../../image/Taksu-Logo-tablet";
+import TaksuLogoDesktop from "../../../image/Taksu-Logo-desktop";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
